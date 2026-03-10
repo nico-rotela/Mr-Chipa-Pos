@@ -1,0 +1,166 @@
+/* ================= */
+/* HISTORIAL PAGE    */
+/* ================= */
+
+.historial-container {
+  padding: 20px;
+}
+
+.historial-titulo {
+  margin-bottom: 20px;
+}
+
+/* ================= */
+/* LAYOUT HISTORIAL  */
+/* ================= */
+
+.historial-layout {
+  display: flex;
+  gap: 30px;
+
+  /* altura del layout para controlar el scroll */
+  height: 80vh;
+}
+
+/* ================= */
+/* LISTA DE VENTAS   */
+/* ================= */
+
+.historial-ventas {
+  flex: 1;
+
+  /* SOLO las ventas hacen scroll */
+  overflow-y: auto;
+
+  padding-right: 10px;
+}
+
+.historial-lista {
+  list-style: none;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.historial-card {
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  transition: 0.2s ease;
+}
+
+.historial-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.historial-info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.historial-total {
+  color: #1e3a8a;
+}
+
+/* ================= */
+/* BOTON DETALLE     */
+/* ================= */
+
+.btn-detalle {
+  background: #1e3a8a;
+  color: white;
+
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.btn-detalle:hover {
+  background: #1e40af;
+}
+
+/* ================= */
+/* PANEL DETALLE     */
+/* ================= */
+
+.historial-detalle {
+  width: 420px;
+
+  /* esto hace que el detalle quede fijo */
+  position: sticky;
+  top: 20px;
+
+  /* evita que se estire */
+  height: fit-content;
+}
+
+/* ================= */
+/* CARD DETALLE      */
+/* ================= */
+
+.detalle-card {
+  margin-top: 30px;
+
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.detalle-titulo {
+  margin-bottom: 15px;
+}
+
+/* ================= */
+/* TABLA DETALLE     */
+/* ================= */
+
+.detalle-tabla {
+  margin-top: 10px;
+}
+
+.detalle-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+
+  font-weight: 600;
+  padding-bottom: 6px;
+
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.detalle-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+
+  padding: 8px 0;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* ================= */
+/* TOTAL DE VENTA    */
+/* ================= */
+
+.detalle-total {
+  margin-top: 15px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #1e3a8a;
+}

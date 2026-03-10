@@ -1,0 +1,22 @@
+/* ================= */
+/* PAGINA VENTAS     */
+/* ================= */
+
+.ventas-container {
+  display: flex;
+  gap: 30px;
+  height: 100%;
+}
+
+.productos {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.carrito {
+  width: 340px;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}

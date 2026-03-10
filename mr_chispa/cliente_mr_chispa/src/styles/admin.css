@@ -1,0 +1,78 @@
+/* ================= */
+/* ADMIN PAGE        */
+/* ================= */
+
+.admin-container {
+  padding: 20px;
+}
+
+.admin-titulo {
+  margin-bottom: 20px;
+}
+
+/* ================= */
+/* CARD FORM ADMIN   */
+/* ================= */
+
+.admin-form-card {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+
+  padding: 20px;
+  border-radius: 8px;
+
+  margin-bottom: 25px;
+}
+
+.admin-form-titulo {
+  margin-bottom: 15px;
+}
+
+/* ================= */
+/* FORM ADMIN        */
+/* ================= */
+
+.admin-form {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+/* ================= */
+/* BOTON CREAR       */
+/* ================= */
+
+.btn-crear {
+  background: #1e3a8a;
+  color: white;
+
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-crear:hover {
+  background: #1e40af;
+}
+
+/* ================= */
+/* BOTON EDITAR      */
+/* ================= */
+
+.btn-editar {
+  background: #1e3a8a;
+  color: white;
+}
+
+.btn-editar:hover {
+  background: #1e40af;
+}
