@@ -26,6 +26,17 @@ Sistema de ventas (POS) orientado a pequeños negocios. Permite gestionar produc
 
 https://www.youtube.com/watch?v=D7Dh1VpulBg
 
+## Capturas
+
+### Productos
+![Productos](./screens/productos_admin.png)
+
+### Carrito
+![Carrito](./screens/punto_venta.png)
+
+### Venta
+![Venta](./screens/historial_ventas.png)
+
 ---
 
 ## Instalación
